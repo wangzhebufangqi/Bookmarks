@@ -1,0 +1,36 @@
+site_name: My Bookmarks
+repo_url: https://github.com/wangzhebufangqi/Bookmarks
+repo_name: wangzhebufangqi/Bookmarks
+
+nav:
+    - Introduction: 'index.md'
+    - SiteNavigation: 'https://wangzhebufangqi.github.io/SiteNavigation/'
+    - Program:  
+        - Android: 'Program/Android.md'
+        - C/C++: 'Program/C++.md'
+        - Java: 'Program/Java.md'
+        - Python: 'Program/Python.md'
+        - Windows: 'Program/Windows.md'
+    - Study:
+        - Language: 'Study/Language.md'
+        - Computer Science: 'Study/ComputerScience.md'
+    - Life:
+        - Growing: 'Life/Growing.md'
+ 
+copyright: Copyright &copy; 2021 wangzhebufangqi
+
+
+theme: 
+    name: material
+    favicon: img/favicon.ico
+    features:
+        - navigation.tabs
+    icon:
+        repo: fontawesome/brands/github
+
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/wangzhebufangqi
+          name: wangzhebufangqi
+    
